@@ -1,121 +1,132 @@
-# ⚡ CodePulse X — Developer Typing, Debugging & Cognitive Analyzer
+# 🚀 CodePulse X | Cinematic Cognitive Development Lab 🖤
 
-_“Not just a typing test — a window into how developers think under pressure.”_
+ Deployed on Vercel: [Live Demo 🚀](https://code-pulse-x.vercel.app/)
 
-CodePulse X is an AI-inspired web application that measures how a developer **types, thinks, and focuses** while coding.  
-It goes beyond speed tests by analyzing **cognitive load, focus stability, debugging ability, and adaptability** — all inside a beautiful **dark glassmorphism** interface.
+[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)  
+[![Google AI Studio](https://img.shields.io/badge/Powered%20by-Google%20AI%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://studio.google.com/)  
+[![React](https://img.shields.io/badge/React-JS-61DAFB?style=for-the-badge&logo=react&logoColor=cyan)](https://reactjs.org/)  
 
----
-
-## 🚀 Live Demo
-🔗 **Deployed on Vercel:** [https://codepulse-x.vercel.app](https://codepulse-x.vercel.app)
+**CodePulse X** is an elite, industrial-grade cognitive development lab for developers. It measures typing speed, code accuracy, and mental resilience under tactical stress in a cinematic, high-performance environment.
 
 ---
 
-## 🧠 Overview
+## 📑 Table of Contents
 
-| Category | Description |
-|-----------|--------------|
-| **Type** | Web Application |
-| **Built With** | React + Vite / Next.js (Frontend), Tailwind CSS, Framer Motion, Chart.js |
-| **Deployment** | Vercel |
-| **Core Idea** | Measure cognitive performance of developers through coding simulation |
-
----
-
-## 🎯 Features
-
-### 🧩 Core Functionalities
-- 🧠 **Cognitive Load & Flow Detection** – Real-time rhythm tracking & stress visualization  
-- 🔄 **Mental Context Switching Mode** – Auto language swaps to test adaptability  
-- 🧪 **Bug Injection & Debug Mode** – Real coding logic fixes under pressure  
-- 🔕 **Silent Error Mode** – Hidden errors revealed after test for mindfulness  
-- 💫 **Distraction Simulation Mode** – Animated fake notifications & pop-ups to test focus  
-- 🔥 **Boss Fight Mode** – Combined ultimate test with bugs + distractions + language switches  
-- 🪞 **Mirror Coding Mode** – Mirrored text to challenge spatial memory  
-- 🧠 **AI Personality Classification** – Generates coder types like *Calm Coder*, *Panic Fixer*, etc.  
-- 📈 **Cognitive Dashboard** – Live WPM, accuracy, focus, and rhythm metrics  
-- 🪪 **Report Generation** – PDF export with heatmaps, timelines, and personalized feedback  
+- [Core Identity & Aesthetic](#core-identity--aesthetic)  
+- [Navigation & State Flow](#navigation--state-flow)  
+- [Gaming Engine (Game Modes)](#gaming-engine-game-modes)  
+- [Terminal Logic & Mistake Tracking](#terminal-logic--mistake-tracking)  
+- [AI Performance Analysis](#ai-performance-analysis)  
+- [Data Persistence & Analytics](#data-persistence--analytics)  
+- [Technical Requirements](#technical-requirements)  
+- [Deployment](#deployment)  
 
 ---
 
-## 🎨 UI & UX Highlights
-- **Modern Dark Glassmorphism Theme**  
-  - Frosted translucent panels (`backdrop-filter: blur(24px)`)  
-  - Electric cyan & violet neon accents  
-  - Minimal, professional, futuristic aesthetic  
-- **Smooth Animations** with Framer Motion  
-- **Responsive Layout** for desktop and tablet  
-- **Low-latency Typing Engine** optimized for performance  
+## 🎨 Core Identity & Aesthetic
+
+**Frameworks & Libraries:**  
+- ⚛️ React  
+- 🎨 Tailwind CSS  
+- 🎬 Framer Motion  
+- 📊 Recharts  
+
+**Palette:**  
+- Background: `#050505`  
+- Surface Containers: `#0c0a09`  
+- Accent Colors (user-selectable): Solar Amber 🌞, Cyber Blue 💧, Electric Violet ⚡, Plasma Green 🟢, Crimson Red 🔴, Neutral Zinc ⚪  
+
+**Visual Elements:**  
+- 🕹 Persistent 40px tactical grid  
+- 🔄 Moving horizontal scanline overlay with variable opacity  
+- 🎯 Custom reticle-style crosshair cursor that expands/rotates on interactive hover  
+
+**Typography:**  
+- JetBrains Mono for all code and data  
+- Inter for headlines (Black, Italic, Tight tracking)  
 
 ---
 
-## ⚙️ Tech Stack
+## 🗺 Navigation & State Flow
 
-| Layer | Technology |
-|-------|-------------|
-| **Frontend** | React / Next.js |
-| **Styling** | Tailwind CSS + Custom SCSS + Glassmorphism CSS |
-| **Animations** | Framer Motion / GSAP |
-| **Charts** | Chart.js / Recharts |
-| **PDF Export** | html2canvas + jsPDF |
-| **Deployment** | Vercel |
-| **Optional AI / Data Logic** | Rule-based analysis in JS or Python microservice |
-
-
----
-
-## 🧠 Core Algorithms
-
-- **WPM:** `(charactersTyped / 5) / (minutesElapsed)`
-- **Accuracy:** `(correctChars / totalChars) × 100`
-- **Cognitive Load:** `errorRate × (1 / rhythmConsistency) × speedVariation`
-- **Personality Classification:** Rule-based thresholds derived from focus & endurance metrics
+**State Machine Overview:**  
+1. **Splash Scene:** ✨ Particle-physics intro with industrial square particles and accent-colored linkages  
+2. **Mode Selector:**  
+   - Left Pane: Tactical mode list with accent color picker 🖌  
+   - Right Pane: Cinematic preview of the selected mode 🎥  
+3. **Language Network:** 🌐 Circular node-graph for selecting programming environments  
+4. **Terminal:** ⌨️ Core typing environment  
+5. **Post-Analysis:** 📊 High-density dashboard for results  
+6. **Progress Lab:** 🗄 Scrollable archive for historical session data  
 
 ---
 
-## 🧰 Setup & Installation
+## 🎮 Gaming Engine (Game Modes)
 
-```bash
-# Clone repository
-git clone https://github.com/yourusername/codepulse-x.git
+1. **Speed Test 🏎:** Standard typing performance  
+2. **Syntax Fixer (Debug) 🐞:** Correct pre-injected errors in code snippets  
+3. **Blind Typing (Silent Error) 🙈:** Errors revealed only at the end  
+4. **Glitch Mode (Bug Injection) 💥:** Random spelling errors injected mid-typing  
+5. **Language Swap 🔄:** Snippet and language switch every 20 seconds  
+6. **Mirror View 🪞:** Terminal interface is horizontally flipped  
+7. **Focus Test (Distraction) ⚠️:** Random popups (“Critical Error”, “Incoming Call”) appear  
+8. **Ultimate Challenge (Boss Fight) 🏆:** 120-second gauntlet combining mirroring, swaps, and distractions across 3 languages  
 
-# Navigate into project
-cd codepulse-x
+---
 
-# Install dependencies
-npm install
+## ⌨️ Terminal Logic & Mistake Tracking
 
-# Start development server
-npm run dev
+- **Input Engine:** Hidden textarea driving a reactive display layer  
+- **Mistake Logic:**  
+  - Total Mistakes ❌: Every incorrect keystroke  
+  - Final Errors ⚠️: Characters remaining incorrect at completion  
+  - Visual Feedback: Correct keys ✅ use accent color; mistakes ❌ are white text on crimson background  
+- **Auto-Termination ⏱:** Locks terminal when timer reaches zero and triggers analysis  
+- **Auto-Indentation ↵:** Enter key inserts correct spaces/tabs based on snippet  
 
-# Build for production
-npm run build
+---
 
-# Deploy to Vercel
-vercel deploy
-```
+## 🤖 AI Performance Analysis
 
-## 🧪 Running Locally
+**Integration:** [@google/genai](https://www.npmjs.com/package/@google/genai) (model: `gemini-3-flash-preview`)  
 
-Once started, visit `http://localhost:5173/`
- (or Vercel preview URL)
-
-Select a *mode → choose a language → start typing!*
-
-## 📊 Output & Reports
-
-After every session:
-
-- View detailed dashboard (speed, accuracy, cognitive load)
-- Download AI-generated PDF report with performance charts
-- Receive personality classification & improvement advice
+**Input Metrics:**  
+- WPM ⌨️  
+- Accuracy 🎯  
+- Total Mistakes ❌  
+- Cognitive Load 🧠 (0–100%)  
+- Consistency 📈  
 
 --- 
 
-### 👩‍💻 Author
+## 📊 Data Persistence & Analytics
 
-Developed by: Hameed Afsar K M
-Project Type: College / Vibing Coding Competition Entry
+- History 🗂: Stores last 50 sessions in localStorage
+
+- Analysis Dashboard:
+  - WPM Graph 📈: Cinematic AreaChart showing speed over time
+  - Syntax Audit 🔍: Code heatmap showing mistake locations
+  - Stat Tiles 🖥: Large italicized displays for WPM, Accuracy %, Total Mistakes
 
 ---
+
+ ## Deployment/Clone Repository
+
+Steps to Deploy:
+
+1. Fork/clone this repository by using:
+```bash
+git clone https://github.com/hameed-afsar-km/CodePulse-x.git
+```
+
+2. Install dependencies:
+```bash
+npm install --legacy-peer-deps
+```
+
+3. Start local development:
+```bash
+npm run dev
+```
+`Push to GitHub & link repository on Vercel
+ for automatic deployment`
